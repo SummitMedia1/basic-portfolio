@@ -6,8 +6,7 @@
 
 body {
 	/*background-color: #eee;*/
-	background-image: url(/assets/images/background.jpg)
-	margin: 0;
+	background-image: url("../images/background-light-blue.jpg")
 }
 
 .navcontainer {
@@ -40,9 +39,6 @@ body {
 .header:hover {
 	background-color: #000000;
 }
-
-
-
 
 .wrapper {
 	overflow: hidden;
@@ -88,7 +84,6 @@ li a:hover {
 
 
 .about-me {
-	/*overflow: hidden;*/
 	width: 650px;
 	float: left;
 	height: auto;
@@ -153,13 +148,7 @@ footer {
 	font-size: 12px;
 	border-top: 10px solid #45aaa5;
 	position: fixed;
-	z-index: 100;
-	float: left;
 	bottom: 0px;
-}
-
-.clear { 
-	clear: both; 
 }
 
 .heighttext{
