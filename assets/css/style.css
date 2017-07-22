@@ -87,6 +87,7 @@ li a:hover {
 	color: #0077b5;
 	padding: 40px;
 	border: 1.5px solid #283e4a;
+	position: relative;
 }
 
 #h1 {
@@ -112,6 +113,7 @@ p {
 }
 
 #aside {
+	display: inline-block;
 	width: 270px;
 	height: 250px;
 	background-color: snow;
