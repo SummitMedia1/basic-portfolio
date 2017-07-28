@@ -1,56 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<!-- <title>About | Mike Fuchsman</title> -->
 	<title>About | Mike Fuchsman</title>
+
 </head>
+
 <body>
-	<div class="navcontainer">
-		<div class="header">Mike Fuchsman</div>
-			<div id="menu">
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="./portfolio.html" target="_blank">Portfolio</a></li>
-					<li><a href="./contact.html" target="_blank">Contact</a></li>
-				</ul>
-			</div>	
-	</div>
-	
-	<div class="wrapper">
-		<section>	
-			<div class="about-me">
-				<div id="h1">About Me</div>
-				<div style="background-color:#cccccc; height:2px;  width: 100%"></div>
-				<div id="div-3">
-					<img src="./assets/images/mike-f-1.jpg" alt="" height="197px" width="197px"></img>
-					<p>In-house creative services executive who leads teams that produce compelling advertising, short-form entertainment featurettes and corporate marketing communications for digital, print and video medias.
-					</p>
-					<p>Proficient at building a lean, diverse and collaborative business culture while directing organizational strategies that reap consistent and significant revenues and realize multimillion-dollar operational cost savings. Excel at establishing strong, cross-organizational relationships with executive leaders, colleagues, and clients. Recognized by industry experts as a rare executive talent who possesses a blend of multi-disciplinary, hands-on creative expertise, has a strong technology-centric perspective, is a deft senior-level presenter, and a leader who loves to mentor and grow.
-					</p>
+
+<!-- Navigation -->
+<!-- ========================================================================================================================== -->	
+
+<nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0">
+	<div class="container-fluid">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse">
+            	<span class="sr-only">Toggle navigation</span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+      		</button>
+		</div>
+			<a class="navbar-brand" style="background-color: #0077b5; color: white;">Mike Fuchsman</a>	
+				<div class="navbar-collapse collapse" id="navbarCollapse">
+					<ul class="nav nav-pills navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Porfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
 				</div>
-		</section>		
+	</div>
+</nav> 
+
+<!-- End Navigation -->
+<!-- ========================================================================================================================== -->		
+
+<!-- Jumbotron Headline -->
+<!-- ========================================================================================================================== -->	
+
+<div class="container">
+
+	<div class="jumbotron" style="border-bottom-right-radius: 40px; border-bottom-left-radius: 40px; padding-bottom: 30px; margin-top: 0; margin-bottom: 60px">
+		<h1>About Me</h1>
+		<p>In-house creative services executive who leads multidisciplinary teams that service demanding clients and are tasked with delivering exceptionally crafted branding materials, from concepts to final production, on-time and on-budget.</p>
+
+	</div>	
+
+</div>	
+
+<!-- End Jumbotron -->
+<!-- ========================================================================================================================== -->	
+
+<!-- Main Stage -->
+<!-- ========================================================================================================================== -->	
+
+<div class="container">
+
+	<div class="row">
+
+		<div class="col-md-2 col-sm-4">
+			<img src="./assets/images/mike-f-1.jpg" alt="" height="175px" width="175px" class="img-circle" style="float: left; margin-right: 30px"></img>
+		</div>	
+			
+		<div class="col-md-6 col-sm-8" style="margin: 0">
+			<p>Proficient at building a lean, diverse and collaborative business culture while directing creative and organizational strategies that reap consistent and significant revenues and realize multimillion-dollar operational cost savings. Excel at establishing strong, cross-organizational relationships with executive leaders, colleagues, and clients. Recognized by industry experts as a rare executive talent who possesses a blend of multi-disciplinary hands-on creative expertise in all digital design medias.</p>
+			<p style="margin-bottom: 40px; padding-bottom: 40px">I have a strong technology-centric perspective, am a deft senior-level presenter, and a leader who loves to mentor and learn.</p>
+		</div>
+
+<!-- End Main Stage -->
+<!-- ========================================================================================================================== -->			
 		
-		<section>
-			<div id="aside">
-				<div id="h2">Connect With Me</div>
-				<div style="background-color: #cccccc; height: 1px;"></div>
-				<div class="container" align="center">
+<!-- Right Aside -->
+<!-- ========================================================================================================================== -->	
 
-					<a href="https://summitmedia1.github.io/basic-portfolio/" target="_blank"><div id="icon-left"></div></a>
+		<div class="col-md-3 col-sm-12 col-xs-12 well well-large" id="connect" style="border-radius: 16px; padding-bottom: 60px; float: right">
+			<h2 style="margin-top: 0; margin-bottom: 10px">Connect With Me</h2>
+			<div style="background-color:#cccccc; width: 100%; padding: 1.5px"></div>
+			
+			<div class="row" style="margin-top: 15px; margin-bottom: 20px" align="center">
 
-					<a href="https://stackexchange.com/users/11119519/summitmedia1" target="_blank"><div id="icon-right"></div></a>
+				<div class="col-md-4 col-sm-4">
 
-					<a href="https://www.linkedin.com/in/mikefuchsman/" target="_blank"><div id="icon-center"></div></a>
+					<a href="https://summitmedia1.github.io/basic-portfolio/" target="_blank"><img src="./assets/images/github.png" alt="" height="50px" width="50px" style="padding: 5px"></img></a>
+				
+				</div>
+
+				<div class="col-md-4 col-sm-4">
+
+				<a href="https://www.linkedin.com/in/mikefuchsman/" target="_blank"><img src="./assets/images/LinkedIn_logo_initials.png" alt="" height="50px" width="50px" style="padding: 5px"></img></a>
 
 				</div>
+
+				<div class="col-md-4 col-sm-4">
+
+				<a href="https://stackexchange.com/users/11119519/summitmedia1" target="_blank"><img src="./assets/images/stackoverflow-6-xxl.png" alt="" height="50px" width="50px" style="padding: 5px"></img></a>
+				
+				</div>
+
 			</div>
-		</section>
+		</div>
+	</div>	
+		
+<!--Right Aside Panel Close -->
+<!-- ========================================================================================================================== -->
+
 	</div>
-	
-	<section>
-		<br />&nbsp;
-		<footer>&copy;Copyright 2017 - Mike Fuchsman</footer>
-	</section>
+
+</div>
+
+<!-- Footer -->
+<!-- ========================================================================================================================== -->	
+
+	<div class="full-width-div">
+      <p>&copy; Copyright 2017 Mike Fuchsman</p>
+	</div>
+
+<!-- End Footer -->
+<!-- ========================================================================================================================== -->	
+
 </body>
 </html>
