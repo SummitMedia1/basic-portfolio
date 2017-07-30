@@ -2,151 +2,70 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-	<!-- <title>About | Mike Fuchsman</title> -->
 	<title>Contact | Mike Fuchsman</title>
-	
 </head>
-
 <body>
-
-<!-- Navigation Panel -->
-<!-- ========================================================================================================================== -->	
-
-<nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0">
-	<div class="container-fluid">
-		<div class="navbar-header">
-		     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-            	<span class="sr-only">Toggle navigation</span>
-            	<span class="icon-bar"></span>
-            	<span class="icon-bar"></span>
-            	<span class="icon-bar"></span>
-      		</button>
-		</div>
-			<a class="navbar-brand" style="background-color: #0077b5; color: white;">Mike Fuchsman</a>
-			<div id="navbar" class="navbar-collapse collapse">
-				<!-- <div class="collapse navbar-collapse" id="navbarCollapse"> -->
-					<ul class="nav nav-pills navbar-right">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="index.html">About</a></li>
-						<li class="active"><a href="portfolio.html">Porfolio</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-			</div>
+	<div class="navcontainer">
+		<div class="header">Mike Fuchsman</div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="./portfolio.html" target="_blank">Portfolio</a></li>
+					<li><a href="./contact.html" target="_blank">Contact</a></li>
+				</ul>
+			</div>	
 	</div>
-</nav>
-
-<!-- End Navigation Panel -->	
-<!-- ========================================================================================================================== -->	
-
-<!-- Jumbotron Headline -->
-<!-- ========================================================================================================================== -->	
-
-<div class="container">
-
-	<div class="jumbotron" style="border-bottom-right-radius: 40px; border-bottom-left-radius: 40px; padding-bottom: 30px; margin-top: 0; margin-bottom: 60px">
-		<h1>Contact</h1>
-		<p>In-house creative services executive who leads multidisciplinary teams that service demanding clients and are tasked with delivering exceptionally crafted branding materials, from concepts to final production, on-time and on-budget.</p>
-
-	</div>	
-
-</div>	
-
-<!-- End Jumbotron Headline -->
-<!-- ========================================================================================================================== -->	
-
-<!-- Main Stage Panel -->
-<!-- ========================================================================================================================== -->
-
-<div class="container">
-
-	<div class="row" style="padding: 0; margin: 0 auto">
-
-		<div class="col-md-7 col-sm-12 well well-large" id="main" style="border-radius: 10px; margin-left: 0px">
+	
+	<div class="wrapper">
+		<section>	
+			<div class="about-me">
+				<div id="h1">Contact</div>
+				<div style="background-color: #cccccc; height: 2px; width: 100%"></div>
+					<form>
+						<br />
+  						<div class="formtext">Name:</div>
+  						<input type="text" class="heighttext" name="name" required placeholder="First and Last Name" size="50">
+  						<br />
+  						<br />
+ 						<div class="formtext">Email:</div>
+  						<input type="email" class="heighttext" name="email" required placeholder="example@gmail.com" size="50">
+  						<br />
+  						<br />
+  						<div class="formtext">Message:</div>
+  						<textarea rows="5" cols="50" name="message" placeholder="Enter text here..." form=""></textarea>
+  						<br />
+  						<div class="formtext">Website:</div>
+  						<input type="url" class="heighttext" name="homepage" placeholder="https://this-is-my-website.com" size="50">
+  						<br />
+  						<br />
+  						<br />
+  						<input type="submit" value="Submit">
+  						<input type="reset">
+					</form>
+				</div>
+		</section>		
 		
-			<form id="contact-me">
+		<section>
+			<div id="aside">
+				<div id="h2">Connect With Me</div>
+				<div style="background-color: #cccccc; height: 1px;"></div>
+				<div class="container" align="center">
 
-				<div class="form-group">
-				    <label for="name">First & Last Name:</label>
-				    <input type="email" class="form-control" id="name">
+					<a href="https://summitmedia1.github.io/basic-portfolio/" target="_blank"><div id="icon-left"></div></a>
+
+					<a href="https://stackexchange.com/users/11119519/summitmedia1" target="_blank"><div id="icon-right"></div></a>
+
+					<a href="https://www.linkedin.com/in/mikefuchsman/" target="_blank"><div id="icon-center"></div></a>
 				</div>
-
-				<div class="form-group">
-				    <label for="email">Email address:</label>
-				    <input type="email" class="form-control" id="email">
-				</div>
-				
-				<div class="form-group">
-				    <label for="msg">Message:</label>
-				    <textarea class="form-control" rows="5" id="msg"></textarea>
-				</div>
-				
-				<button type="submit" class="btn btn-default">Submit</button>
-				<button type="reset" class="btn btn-default" style="margin-left: 25px">Reset</button>
-			
-			</form>
-			
-		</div>
-
-<!-- End Main Stage Panel -->
-<!-- ========================================================================================================================== -->
-
-<!--Right Aside Panel -->
-<!-- ========================================================================================================================== -->	
-
-		<div class="col-md-3 col-sm-12 well well-large" id="connect" style="border-radius: 16px; padding-bottom: 60px; float: right">
-			<h2 style="margin-top: 0; margin-bottom: 10px">Connect With Me</h2>
-			<div style="background-color:#cccccc; width: 100%; padding: 1.5px"></div>
-			
-			<div class="row" style="margin-top: 15px; margin-bottom: 20px" align="center">
-
-				<div class="col-md-4 col-sm-4">
-
-					<a href="https://summitmedia1.github.io/basic-portfolio/" target="_blank"><img src="./assets/images/github.png" alt="" height="50px" width="50px" style="padding: 5px"></img></a>
-				
-				</div>
-
-				<div class="col-md-4 col-sm-4">
-
-				<a href="https://www.linkedin.com/in/mikefuchsman/" target="_blank"><img src="./assets/images/LinkedIn_logo_initials.png" alt="" height="50px" width="50px" style="padding: 5px"></img></a>
-
-				</div>
-
-				<div class="col-md-4 col-sm-4">
-
-				<a href="https://stackexchange.com/users/11119519/summitmedia1" target="_blank"><img src="./assets/images/stackoverflow-6-xxl.png" alt="" height="50px" width="50px" style="padding: 5px"></img></a>
-				
-				</div>
-
 			</div>
-		</div>
-	</div>	
-
-<!--Right Aside Panel Close -->
-<!-- ========================================================================================================================== -->	
-
-</div>
-
-<!-- Footer -->
-<!-- ========================================================================================================================== -->	
-
-	<div class="full-width-div">
-      <p>&copy; Copyright 2017 Mike Fuchsman</p>
+		</section>
 	</div>
-
-<!-- End Footer -->
-<!-- ========================================================================================================================== -->
-<!-- FOOTER SECTION - Before closing </body> tag -->
-
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-<!-- Minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+	
+	<section>
+		<br />&nbsp;
+		<footer>&copy;Copyright 2017 - Mike Fuchsman</footer>
+	</section>
 </body>
-
 </html>
