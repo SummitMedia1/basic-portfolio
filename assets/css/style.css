@@ -1,89 +1,250 @@
 @import url('https://fonts.googleapis.com/css?family=Spectral|Roboto:400,600,800|Alex+Brush');
 
-	<style type="text/css">
-		
-		.navbar-nav li {
-			padding-left: 30px;
-			padding-right: 30px;
-		}
+* {
+	box-sizing: border-box;
+}
 
-		.nav-pills li {
-			padding: 5px;
-		}
+body {
+	background-image: url("../images/background-light-blue.jpg")
+}
 
-		.navbar-brand {
-			text-align: center;
-			border-radius: 6px;
-			font-weight: 500;
-			font-size: 36px;
-			padding: 20px 20px 40px 20px;
-			left: 80px important!;
-		}
+.navcontainer {
+	width: 100%;
+	height: 80px;
+	background-color: snow;
+	position: fixed;
+	top: 0;
+	border-bottom: 2px solid #283e4a;
+	z-index: 100;
+}
 
-		.navbar-default {
-			height: 60px;
-			clear: both;
-		}
+.header {
+	overflow: hidden;
+	padding: 25px;
+	float: left;
+	font-family: Alex Brush;
+	font-size: 54px;
+	font-weight: 600;
+	letter-spacing: .015em;
+	background-color: #0077b5;
+	color: white;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 16.5%;
+}
 
-	@media (max-width: 768px) {
+.header:hover {
+	background-color: #000000;
+}
 
-    	.navbar-collapse.collapse {
-        	display: none !important;
-    	}
-		
-	}
+.wrapper {
+	overflow: hidden;
+	width: 960px;
+	margin: 170px auto;
+	position: relative;
+}
 
-	@media (min-width: 768px) {
-		.navbar>.container-fluid .navbar-brand {
-    		margin-left: 80px;
-		}
-	}
-
-	@media only screen and (max-width: 768px) {
-
-   		.navbar-brand, .navbar-default { 
-      		font-size: 20px;
-    	}
+#menu {
+	width: 30%;
+	padding: 20px;
+	float: right;
+	margin-right: 230px;
+}
 	
-	}
-	@media only screen and (max-width: 768px) {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
 
-   		#connect, #main .navbar-brand { 
-      		margin-left: 0 !important;
-    	}
-	}
-	
-		.divimage-overlay {
-			padding: 15px;
-			width: 260px;
-			background-color: #0077b5;
-			border-top: 3px solid #000000;
-			border-bottom: 3px solid #000000;
-			color: snow;
-			font-family: 'Georgia', Times, Times New Roman, serif;
-			font-size: 16px;
-			text-align: center;
-			position: relative;
-			top:-140px;
-			clear: left;
-		}
+li {
+    float: left;
+}
 
-		.divimage-overlay:hover {
-			background-color: #ffffff;
-			color: #0077b5;
-		}
+li a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #283e4a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-		.full-width-div {
-   			position: relative;
-   			padding: 30px;
-    		width: 100%;
-    		left: 0;
-    		bottom: 0;
-    		background-color: #F8F8F8;
-    		border-top: 1.5px solid #E7E7E7;
-    		text-align: center;
-		}
+li a:hover {
+    font-size: 18px;
+    color: #0077b5;
+    font-weight: 800;
+}
 
-	body {
-		font-size: 15px;
-	}
+
+.about-me {
+	width: 650px;
+	height: auto;
+	float: left;
+	background-color: snow;
+	color: #0077b5;
+	padding: 40px;
+	border: 1.5px solid #283e4a;
+	position: relative;
+}
+
+#h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 36px;
+	font-weight: 600;
+	padding: 0px 0px 30px 0px;
+}
+
+#div-3 img {
+	padding: 10px 20px 10px 0px;
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.45em;
+	color: #283e4a;
+	padding: 10px;
+}
+
+#aside {
+	display: inline-block;
+	width: 270px;
+	height: 250px;
+	background-color: snow;
+	float: right;
+	padding: 20px;
+	border: 1.5px solid #283e4a;
+}
+
+.container {
+	margin-top: 15px;
+	width: 100%;
+	padding-top: 15px;
+}
+
+#h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	font-weight: 600;
+	padding: 30px 0px 32px 0px;
+	color: #0077b5;
+}
+
+#icon-left {
+	float: left;
+	height: 48px;
+	width: 48px;
+	background-image: url("../images/github.png");
+	background-size: 48px 48px;
+}
+
+#icon-left:hover {
+	height: 55px;
+	width: 55px;
+	background-size: 55px 55px;
+}
+
+#icon-center {
+	margin: 0 auto;
+	height: 48px;
+	width: 48px;
+	background-image: url("../images/LinkedIn_logo_initials.png");
+	background-size: 48px 48px;
+	display: inline-block;
+	position: relative;
+}
+
+#icon-center:hover {
+	height: 55px;
+	width: 55px;
+	background-size: 55px 55px;
+}
+
+#icon-right {
+	float: right;
+	height: 48px;
+	width: 48px;
+	background-image: url("../images/stackoverflow-6-xxl.png");
+	background-size: 48px 48px;
+	clear: right;
+}
+
+#icon-right:hover {
+	height: 55px;
+	width: 55px;
+	background-size: 55px 55px;
+}
+
+footer {
+	width: 100%;
+	padding: 30px;
+	background: #283e4a;
+	color: white;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	border-top: 10px solid #0077b5;
+	position: fixed;
+	bottom: 0px;
+}
+
+.heighttext{
+ height: 30px;
+ }
+
+.formtext {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 2.65em;
+	font-size: 17px;
+	letter-spacing: .015em;
+	color: #283e4a;
+}
+
+input::-webkit-input-placeholder {
+  color: rgb(211,211,211)
+}
+
+textarea::-webkit-input-placeholder {
+  color: rgb(211,211,211)
+}
+
+.divimage-container {
+	display: inline-block;
+	margin-left: 10px;
+	width: 250px;
+	height: 250px;
+}
+
+.divimage-container img {
+	display: inline-block;
+	opacity: .5;
+	border: 4px solid #000000;
+}
+
+.divimage-container:hover img {
+	opacity: 1.0;
+	border: 4px solid #000000;
+}
+.divimage-overlay {
+	padding: 15px;
+	background-color: #0077b5;
+	border-top: 3px solid #000000;
+	border-bottom: 3px solid #000000;
+	color: snow;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	top:-140px;
+}
+
+.divimage-overlay:hover {
+	background-color: #ffffff;
+	color: #0077b5;
+}
